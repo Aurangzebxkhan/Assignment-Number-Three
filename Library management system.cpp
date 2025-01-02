@@ -74,6 +74,7 @@ void loadInventory(vector<Book>& books, const string& filename) {
         getline(file, book.author);
         file >> book.quantity;
         books.push_back(book);
+        cout<<"Thanks for visiting library ";
     }
     file.close();
 }
