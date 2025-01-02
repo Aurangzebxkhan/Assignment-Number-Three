@@ -15,51 +15,6 @@ struct Product {
 };
 // this is for me to test the code
 // commmint
-hjghjtjytjuut
-hjghjtjytjuut
-hjghjtjytjuut
-kja
-d
-
-
-f
-fd
-
-d
-fff
-f
-d
-
-
-
-
-
-fdopenfd
-fd
-fd
-
-f
-
-fd
-fd
-fdopenfd
-fd
-
-fd
-fd
-f
-fd
-
-fd
-fd
-f
-f
-fdopenfd
-f
-this is for me to test the code change or not on github 
-now i want to see the change on github
-
-
 struct CartItem {
     int productID;
     string name;
