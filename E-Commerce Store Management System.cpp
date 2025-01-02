@@ -1,8 +1,8 @@
-#include <iostream>
-#include <fstream>
-#include <iomanip>
-#include <string>
-#include <vector>
+#include <iostream>//why we use this do you have any idea
+#include <fstream>// why we use this do you have any idea 
+#include <iomanip>// it is for input and output 
+#include <string>// it is for string 
+#include <vector>//it is for vector
 
 using namespace std;
 
