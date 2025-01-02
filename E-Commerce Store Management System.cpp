@@ -13,6 +13,7 @@ struct Product {
     float price;
     int stockQuantity;
 };
+// this is for me to test the code
 
 struct CartItem {
     int productID;
