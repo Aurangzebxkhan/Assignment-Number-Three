@@ -39,7 +39,7 @@ int main() {
         cout << "4. Exit" << endl;
         cout << "Enter your choice: ";
         cin >> choice;
-
+//using switch statment
         switch (choice) {
             case 1:
                 addPatient(patients);
@@ -61,7 +61,7 @@ int main() {
 
     return 0;
 }
-
+//Function to load a file to a vector
 void loadPatients(vector<Patient>& patients, const string& filename) {
     ifstream file(filename);
     if (!file.is_open()) {
