@@ -14,6 +14,7 @@ struct Product {
     int stockQuantity;
 };
 // this is for me to test the code
+// commmint
 
 struct CartItem {
     int productID;
