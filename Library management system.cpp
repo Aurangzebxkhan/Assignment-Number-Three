@@ -56,7 +56,8 @@ int main() {
                 cout << "Invalid choice. Please try again." << endl;
         }
     } while (choice != 4);
-
+    cout<<"Thanks for visiting library ";
+    
     return 0;
 }
 
