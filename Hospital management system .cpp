@@ -15,14 +15,14 @@ struct Patient {
     int roomNumber;
 };
 
-// Function prototypes
+// Function prototypes to manage patient records
 void loadPatients(vector<Patient>& patients, const string& filename);
 void savePatients(const vector<Patient>& patients, const string& filename);
 void addPatient(vector<Patient>& patients);
 void searchPatient(const vector<Patient>& patients);
 void displayPatients(const vector<Patient>& patients);
-// 
 
+//main function to run the program
 int main() {
     vector<Patient> patients;
     const string filename = "patient_records.txt";
