@@ -88,7 +88,9 @@ void saveEmployees(Employee* employees, int employeeCount) {
     }
     outFile.close();
 }
-
+// this is my program now i change the code to make it more readble and easy to understand 
+// i change the code to make it more readble and easy to understand 
+// i change the code to make it more readble and easy to understand
 void addEmployee(Employee* &employees, int &employeeCount) {
     Employee* newEmployees = new Employee[employeeCount + 1];
     for (int i = 0; i < employeeCount; i++) {
