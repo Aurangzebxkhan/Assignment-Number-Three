@@ -15,7 +15,6 @@ struct Product {
 };
 // this is for me to test the code
 // commmint
-
 struct CartItem {
     int productID;
     string name;
