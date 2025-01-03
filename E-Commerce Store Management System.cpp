@@ -22,6 +22,7 @@ struct CartItem {
     int quantity;
     float price;
 };
+// this is the structer this is use for 
 
 vector<Product> loadProducts();
 void saveProducts(const vector<Product>& products);
