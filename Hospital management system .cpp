@@ -61,8 +61,9 @@ int main() {
 
     return 0;
 }
-//Function to load a file to a vector
+//Function to load patients from a file to a vector
 void loadPatients(vector<Patient>& patients, const string& filename) {
+    //Open the file for reading
     ifstream file(filename);
     if (!file.is_open()) {
         cout << "No existing records found. Starting fresh." << endl;
