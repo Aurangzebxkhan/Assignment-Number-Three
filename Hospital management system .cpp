@@ -67,6 +67,7 @@ int main() {
 
     return 0;
 }
+// my name is xyz this if only for checking 
 <<<<<<< Updated upstream
 //Function to load a file to a vector
 void loadPatients(vector<Patient>& patients, const string& filename) {
