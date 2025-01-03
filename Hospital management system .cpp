@@ -67,10 +67,15 @@ int main() {
 
     return 0;
 }
+<<<<<<< HEAD
 // my name is xyz this if only for checking 
 <<<<<<< Updated upstream
 //Function to load a file to a vector
+=======
+//Function to load patients from a file to a vector
+>>>>>>> 80a4155227a6ed406c7afdc4be70f3b0a295d6cd
 void loadPatients(vector<Patient>& patients, const string& filename) {
+    //Open the file for reading
     ifstream file(filename);
     rtrrwqq
 =======

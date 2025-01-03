@@ -14,6 +14,7 @@ struct Product {
     float price;
     int stockQuantity;
 };
+zeeeeebb
 // this is for me to test the code
 // commmint
 struct CartItem {
@@ -23,6 +24,8 @@ struct CartItem {
     float price;
 };
 // this is the structer this is use for 
+// this is not for you popelo jlkaj fkjdsa flksaj f;sa f
+jlkjdsa kjl;
 
 vector<Product> loadProducts();
 void saveProducts(const vector<Product>& products);
