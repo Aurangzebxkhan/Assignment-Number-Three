@@ -14,7 +14,9 @@ struct Patient {
     string disease;
     int roomNumber;
 };
-
+adnan
+adnnnaaaan
+when teacher come then our program is not working why 
 // Function prototypes to manage patient records
 void loadPatients(vector<Patient>& patients, const string& filename);
 void savePatients(const vector<Patient>& patients, const string& filename);
@@ -39,7 +41,11 @@ int main() {
         cout << "4. Exit" << endl;
         cout << "Enter your choice: ";
         cin >> choice;
+<<<<<<< Updated upstream
 //using switch statment
+=======
+    //Using switch statment 
+>>>>>>> Stashed changes
         switch (choice) {
             case 1:
                 addPatient(patients);
@@ -61,10 +67,23 @@ int main() {
 
     return 0;
 }
+<<<<<<< HEAD
+// my name is xyz this if only for checking 
+<<<<<<< Updated upstream
+//Function to load a file to a vector
+=======
 //Function to load patients from a file to a vector
+>>>>>>> 80a4155227a6ed406c7afdc4be70f3b0a295d6cd
 void loadPatients(vector<Patient>& patients, const string& filename) {
     //Open the file for reading
     ifstream file(filename);
+    rtrrwqq
+=======
+//Funtion to Load patients from a file to a vector
+void loadPatients(vector<Patient>& patients, const string& filename) {
+    ifstream file(filename);
+    //Open the file for reading
+>>>>>>> Stashed changes
     if (!file.is_open()) {
         cout << "No existing records found. Starting fresh." << endl;
         return;
