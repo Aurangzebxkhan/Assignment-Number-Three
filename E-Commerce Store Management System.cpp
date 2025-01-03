@@ -3,9 +3,6 @@
 #include <iomanip>// it is for input and output 
 #include <string>// it is for string 
 #include <vector>//it is for vector
-// this is smay listea l 
-// Aurangzeb 
-// kljlkdjf ajl
 
 using namespace std;
 
@@ -16,22 +13,13 @@ struct Product {
     float price;
     int stockQuantity;
 };
-zeeeeebb
-khan g borka jlkjkl jadlkfjlkdsa jfkljdsf;lkasjfdk;lajdskf ;lksaj
-kjl;kjsakfd j;lkfasdjf;lkjdsakf;sa
- kj;dsaljf ;lj;dsajf;laj
- jk;ldajf;lkdsaj fkaj
-// this is for me to test the code
-// commmint
+
 struct CartItem {
     int productID;
     string name;
     int quantity;
     float price;
 };
-// this is the structer this is use for 
-// this is not for you popelo jlkaj fkjdsa flksaj f;sa f
-jlkjdsa kjl;
 
 vector<Product> loadProducts();
 void saveProducts(const vector<Product>& products);
