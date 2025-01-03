@@ -3,6 +3,7 @@
 #include <iomanip>// it is for input and output 
 #include <string>// it is for string 
 #include <vector>//it is for vector
+// this is smay listea l 
 
 using namespace std;
 
