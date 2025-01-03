@@ -17,6 +17,10 @@ struct Product {
     int stockQuantity;
 };
 zeeeeebb
+khan g borka jlkjkl jadlkfjlkdsa jfkljdsf;lkasjfdk;lajdskf ;lksaj
+kjl;kjsakfd j;lkfasdjf;lkjdsakf;sa
+ kj;dsaljf ;lj;dsajf;laj
+ jk;ldajf;lkdsaj fkaj
 // this is for me to test the code
 // commmint
 struct CartItem {
