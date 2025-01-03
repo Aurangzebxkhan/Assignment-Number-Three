@@ -15,6 +15,8 @@ struct Patient {
     int roomNumber;
 };
 
+
+adnnnaaaan
 // Function prototypes to manage patient records
 void loadPatients(vector<Patient>& patients, const string& filename);
 void savePatients(const vector<Patient>& patients, const string& filename);
@@ -39,7 +41,11 @@ int main() {
         cout << "4. Exit" << endl;
         cout << "Enter your choice: ";
         cin >> choice;
+<<<<<<< Updated upstream
 //using switch statment
+=======
+    //Using switch statment 
+>>>>>>> Stashed changes
         switch (choice) {
             case 1:
                 addPatient(patients);
@@ -61,9 +67,17 @@ int main() {
 
     return 0;
 }
+<<<<<<< Updated upstream
 //Function to load a file to a vector
 void loadPatients(vector<Patient>& patients, const string& filename) {
     ifstream file(filename);
+    rtrrwqq
+=======
+//Funtion to Load patients from a file to a vector
+void loadPatients(vector<Patient>& patients, const string& filename) {
+    ifstream file(filename);
+    //Open the file for reading
+>>>>>>> Stashed changes
     if (!file.is_open()) {
         cout << "No existing records found. Starting fresh." << endl;
         return;
