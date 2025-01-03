@@ -14,7 +14,7 @@ struct Product {
     float price;
     int stockQuantity;
 };
-zeeeeebbjblkfdjf kdsalkfjlkdsaj fdsajfh
+zeeeeebb
 // this is for me to test the code
 // commmint
 struct CartItem {
