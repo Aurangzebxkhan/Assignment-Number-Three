@@ -14,8 +14,8 @@ struct Patient {
     string disease;
     int roomNumber;
 };
-adnanrtrt
-adnnnaaaan
+khawaja
+
 when teacher come then our program is not working why 
 // Function prototypes to manage patient records
 void loadPatients(vector<Patient>& patients, const string& filename);
