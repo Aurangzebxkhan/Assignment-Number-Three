@@ -14,7 +14,7 @@ struct Patient {
     string disease;
     int roomNumber;
 };
-adnan
+adnanrtrt
 adnnnaaaan
 when teacher come then our program is not working why 
 // Function prototypes to manage patient records
