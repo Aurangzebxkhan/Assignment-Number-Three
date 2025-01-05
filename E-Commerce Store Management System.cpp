@@ -3,7 +3,7 @@
 #include <iomanip>
 #include <string>
 #include <vector>
-Why this code is not working?
+
 using namespace std;
 
 struct Product {
