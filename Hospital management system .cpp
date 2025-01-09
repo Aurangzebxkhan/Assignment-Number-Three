@@ -14,8 +14,7 @@ struct Patient {
     string disease;
     int roomNumber;
 };
-
-
+ 
 // Function prototypes to manage patient records
 void loadPatients(vector<Patient>& patients, const string& filename);
 void savePatients(const vector<Patient>& patients, const string& filename);
@@ -72,7 +71,8 @@ void loadPatients(vector<Patient>& patients, const string& filename) {
         return;
     }
 //Funtion to Load patients from a file to a vector
-void loadPatients(vector<Patient>& patients, const string& filename) {
+void loadPatients(vector<Patient>& patients, const string& filename)
+ {
     ifstream file(filename);
     //Open the file for reading
 >>>>>>> Stashed changes
